@@ -1,0 +1,230 @@
+.code-font {
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.codepad-header {
+	background-color: #474e5d;
+	color: white;
+	font-size: 4em;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+
+a.no-decorarion:hover {
+    text-decoration: none;
+}
+
+#codeform {
+	margin-top: 100px;
+}
+
+#codegroup-info {
+	visibility: hidden;
+}
+
+#codename-info {
+	visibility: hidden;
+}
+
+#codeworld {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.glyphicon-check.green {
+	color: green;
+}
+
+.glyphicon-remove.red {
+	color: red;
+}
+
+#editor {
+	height: 65vh;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 16px;
+	margin-right: 16px;
+	box-shadow: 0px 5px 15px 5px grey;
+}
+
+#chat-box {
+	height:56vh;
+	overflow-y: auto;
+	word-wrap: break-word;
+}
+
+#coderlist {
+	margin-top: -14px;
+	margin-bottom: 8px;
+	line-height: 300%;
+}
+
+#send-button {
+	font-size: 0.8vw;
+	margin-left: 5px;
+	padding-top: 8px;
+	background-color: #0099ff;
+	border-radius: 4px;
+	height:54px;
+	box-shadow: 0 2px 6px 1px grey
+}
+
+#send-button:hover {
+	background-color: #004d80;
+	cursor:pointer;
+}
+
+div.chat-update {
+	font-size:0.9em;
+	text-align: center;
+	color:grey;
+}
+
+#typing-status {
+	font-size:0.9em;
+	padding-top:3px;
+	padding-left: 6px;	
+	padding-bottom: 2px;	
+	color:grey;
+}
+
+#message-composition {
+	resize: none;
+}
+
+.row.no-gutter {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  	padding-right: 0;
+  	padding-left: 0;
+}
+
+.unselectable { 
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-o-user-select: none; 
+	user-select: none; 
+}
+
+#server-info {
+	visibility: hidden;
+}
+
+.sub-tagline {
+	text-align: center;
+  	font-size: 2.5em;
+  	margin-top:10px;
+  	text-shadow: #000 0px 2px 4px;
+}
+
+#codegroup_header {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.footer {
+	text-align: center;
+	padding-top: 5px;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	height: 30px;
+  	background-color: #99d6ff;
+  	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.a {
+	text-decoration: underline;
+}
+
+#num-groups, #num-coders {
+	color: #944dff;
+}
+
+.well.code-box-green {
+	background: #272822;
+	color: #B0DA4C;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.well.code-box-blue {
+	background: #272822;
+	color: #5EDBF4;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.donate-form {
+	text-align: center; 
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.codetag {
+	margin-right: 2px;
+	margin-left: 2px;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.about-question {
+	color: #527a7a;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+img.shadowed {
+	box-shadow: 0px 0px 15px grey
+}
+
+#homepage-image {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+
+	#homepage-image {
+		width: 70%;
+	}
+
+	#send-button {
+   		font-size: 1.5vw;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+
+	#chat_box {
+		height: 30vh;
+	}
+
+	#send-button {
+   		font-size: 2vw;
+   }
+
+	.sub-tagline {
+	  	font-size: 5vw;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#about-footer {
+		height: 50px;
+	}
+}
+.coding-marker {
+  position:absolute;
+  background:rgba(102, 179, 255, 0.2);
+  z-index:20
+}
+
+

@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>codepad</title>
+	<link rel="stylesheet" type="text/css" href="css/codepad.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="icon" href="images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+
+	<div class="container-fluid">
+
+		<!-- HEADER -->
+		<a class="no-decorarion" href="http://codepad.us">
+		<div class="row codepad-header code-font">
+			codepad<br />
+		</div>
+		</a>
+
+		<div class="row" style="margin-top:30px;">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6">
+			<div class="text-center">
+				<img src="images/note-icon.png" />
+			</div>
+			<div class="about-question">What is codepad?</div>
+			<div class="well code-box-green">
+				Codepad is an educational and professional tool for teaching, learning, and recruiting. Codepad allows students and programmers to collaborate in a real-time environment.
+			</div>
+
+			<div class="about-question">Why did I make this?</div>
+			<div class="well code-box-green">
+				As someone who loves to help others excel in the field of CS, I often find it difficult to adequately teach others concepts of programming without actually working with them in person. A simple online tool like this is something that I've always needed. This was also a great opportunity to learn how to use WebSockets and gain experience in writing a server app in a newly learned language.
+			</div>
+
+			<div class="about-question">How does it work?</div>
+			<div class="well code-box-green">
+				The frontend webpage was written with HTML, CSS (Bootstrap framework), and Vanilla JavaScript. The text editor was created using the Ace Editor framework. I'm using the WebSocket protocol to communicate with a server application which I wrote in Clojure.
+			</div>
+		</div>
+		<div class="col-sm-3"></div>
+		</div>
+	</div>
+
+	<div class="donate-form">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+			">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"> <br />
+		</form>
+	</div>
+
+	<footer id="about-footer" class="footer">
+      <div class="container">
+      	Ideas or suggestions? Contact me at <a href="mailto:john.bojorquez@uconn.edu">john.bojorquez@uconn.edu</a>
+      </div>
+    </footer>
+</body>
+</html>
